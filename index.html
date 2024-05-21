@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3c0077;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70%;
+}
+
+.item {
+    margin: 10px;
+    background-color: #ff6347;
+}
+
+.item1 {
+    flex: 1 1 40%;
+    background-color: #9e58b6;
+}
+
+.item2 {
+    flex: 1 1 20%;
+    background-color: #48c9b0;
+}
+
+.item3 {
+    flex: 1 1 20%;
+    background-color: #f39c12;
+}
+
+.item4 {
+    flex: 1 1 40%;
+    background-color: #48c9b0;
+}
+
+.item5 {
+    flex: 1 1 40%;
+    background-color: #f39c12;
+}
+
+.item6 {
+    flex: 1 1 20%;
+    background-color: #f39c12;
+}
+
+.item7 {
+    flex: 1 1 40%;
+    background-color: #9e58b6;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
+        <div class="item item5"></div>
+        <div class="item item6"></div>
+        <div class="item item7"></div>
+    </div>
+</body>
+</html>
